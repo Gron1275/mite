@@ -2,7 +2,7 @@
 echo Created by: Gron1275
 echo
 echo installing and compiling files
-go get github.com/jpillora/chisel && go build ~/go/src/github.com/jpillora/chisel && go install ~/go/src/github.com/jpillora/chisel
+#go get github.com/jpillora/chisel && go build ~/go/src/github.com/jpillora/chisel && go install ~/go/src/github.com/jpillora/chisel
 curl https://i.jpillora.com/chisel! | bash
 sudo chmod u+x socat-chisel && sudo cp socat-chisel /usr/local/bin
 sudo chmod u+x socat-tunnel && sudo cp socat-tunnel /usr/local/bin
