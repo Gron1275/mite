@@ -11,8 +11,8 @@ How it works:
 There are two active parts to this technique. The reverse shell and the HTTP Tunnel. The HTTP Tunnel links the remote server's chosen port [yourremoteserver:443 ==> 0.0.0.0:443] to one of your own. The reverse shell is pointed towards 0.0.0.0:443 and comes out on yourremoteserver:443. You then have a Socat listener (tcp) waiting to accept from port 443. The setup script migrates the two scripts that loop the tunnel/rev-shell to the /etc/network/if-up.d directory so that every time an internet connection is detected, the two scripts run triggering the connection to be made.
 
 Installation
-
-First, run: sudo chmod +x mite-chisel.sh && sudo ./mite-chisel.sh
+download: socat
+run: sudo chmod +x mite-chisel.sh && sudo ./mite-chisel.sh
 Then the dependencies will be downloaded and the config files copied to their file paths.
 
 YOU MUST HAVE ANOTHER COMPUTER CAPABLE OF RUNNING SOCAT AND CHISEL IN ORDER TO CAPTURE THE SHELL THAT IS SENT!!!
