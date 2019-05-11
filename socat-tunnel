@@ -3,7 +3,7 @@
 # screwed the pooch.
 #
 # Aight lets take another go at this. We're setting up the chisel client to point to the heroku
-# chisel server. (https://chisel-serv.herokuapp.com) Then this fucking thing better work.
+# chisel server. (https://chisel-serv.herokuapp.com) Then this thing better work.
 sudo chisel client --auth root:toor https://chisel-serv.herokuapp.com <your-remote-server>:443 
 # We gonna point this shit towards my main VPS on port 43 cuz I feel like 4443 (which i was gonna
 # use originally so that dumbasses would think it was https) would be too high of a port number
