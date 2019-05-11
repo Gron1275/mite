@@ -1,5 +1,5 @@
 #!/bin/bash
-# Well fucking shit. this is socat-tunnel number two cuz my dumbass ftp'd w/ ncat and 
+# Well damn. this is socat-tunnel number two cuz my dumbass ftp'd w/ ncat and 
 # screwed the pooch.
 #
 # Aight lets take another go at this. We're setting up the chisel client to point to the heroku
